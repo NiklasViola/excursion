@@ -58,7 +58,7 @@ body{
 section{
     color:white;
     text-align: center;
-     
+    margin-bottom: 30px;
 }
 
 section img{
@@ -78,10 +78,18 @@ img {
     margin: 0 auto; /* Zentriert das Bild */
   }
  
-footer{
-    color: grey;
-    text-align: right;
-}
+
 footer h4{
     font-size: 30px;
+}
+
+footer {
+    color: #ccc;
+    text-align: right;
+    padding: 20px;
+    border-top: 1px solid #444;
+}
+
+footer:hover {
+    color: #fff;
 }
